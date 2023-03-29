@@ -69,7 +69,7 @@ let tl2 = gsap.timeline({
   scrollTrigger: {
     trigger: ".zagolovok",
     start: "-260px",
- end:"4000px",
+ end:"6600px",
  pin:  true,
     pinSpacing:false,
    
@@ -88,7 +88,7 @@ tl2.from(".zagolovok", { x:1500, opacity:0, scale:0, duration:1.5} );
     scrollTrigger: {
       trigger: ".zagolovok",
       start: "-50px",
-   end:"500px",
+
    
    pin:  true,
   
@@ -109,7 +109,7 @@ let tl3 = gsap.timeline({
   scrollTrigger: {
     trigger: ".video01",
     start: "-200px",
- end:"4550px",
+ end:"7250px",
 
  pin:  true,
     pinSpacing:false,
@@ -124,8 +124,8 @@ tl3.from(".video01",{ y:100});
       let tl11 = gsap.timeline({
         scrollTrigger: {
           trigger: ".video01",
-          start: "-150px",
-       end:"1400px",
+          start: "-50px",
+       end:"1500px",
        pin:  true,
        
         
@@ -145,7 +145,7 @@ let tl4 = gsap.timeline({
   scrollTrigger: {
     trigger: ".video02",
     start: "-200px",
- end:"3400px",
+ end:"6500px",
   
  pin:  true,
     pinSpacing:false,
@@ -163,7 +163,7 @@ tl4.from(".video02", { y:100});
       scrollTrigger: {
         trigger: ".video02",
         start: "-50px",
-     end:"1500px",
+     end:"1300px",
      pin:  true,
    
       
@@ -187,7 +187,7 @@ let tl8 = gsap.timeline({
   scrollTrigger: {
     trigger: ".video03",
     start: "-200px",
- end:"2450px",
+ end:"5150px",
   
  pin:  true,
     pinSpacing:false,
@@ -226,7 +226,7 @@ let tl6 = gsap.timeline({
   scrollTrigger: {
     trigger: ".logotip",
     start: "-200px",
- end:"3390px",
+ end:"6090px",
   
  pin:  true,
     pinSpacing:false,
@@ -262,7 +262,7 @@ let tl5 = gsap.timeline({
   scrollTrigger: {
     trigger: ".description",
     start: "-380px",
- end:"2150px",
+ end:"5250px",
 
  pin:  true,
     pinSpacing:false,
@@ -299,7 +299,7 @@ let tl55 = gsap.timeline({
   scrollTrigger: {
     trigger: ".description2",
     start: "-480px",
- end:"2050px",
+ end:"5050px",
 
  pin:  true,
     pinSpacing:false,
@@ -315,7 +315,7 @@ tl55.from(".description2", {x:1000 });
     scrollTrigger: {
       trigger: ".description2",
       start: "-600px",
-   end:"-150px",
+   end:"150px",
       pin:  true,
      
     
@@ -337,7 +337,7 @@ let tl555 = gsap.timeline({
   scrollTrigger: {
     trigger: ".description3",
     start: "-580px",
-    end:"1200px",
+    end:"4000px",
 
  pin:  true,
     pinSpacing:false,
