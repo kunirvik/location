@@ -21,12 +21,6 @@ let tl001 = gsap.timeline({
 
 });
 
-tl001.from('#c',{
-
-
- 
-  
-});
 
   tl001.to('#c', {    
     y: -350,
@@ -44,7 +38,7 @@ tl001.from('#c',{
     
         scrollTrigger:{
         trigger: "#c",
-        start: "top ",
+        start: "top top ",
         scrub:true,
       pin:true,
       
@@ -56,16 +50,11 @@ tl001.from('#c',{
       
       
       });
-      
-      tl667.from("#c",{
-    
-       
-       
-      });
+   
       
         tl667.to("#c", {  
-         
-        duration:1,
+       
+        duration:1.5,
         scale: 0.35,
        
         
@@ -80,7 +69,7 @@ let tl2 = gsap.timeline({
   scrollTrigger: {
     trigger: ".zagolovok",
     start: "-260px",
- end:"5400px",
+ end:"4000px",
  pin:  true,
     pinSpacing:false,
    
@@ -92,13 +81,14 @@ let tl2 = gsap.timeline({
 
 tl2.from(".zagolovok", { x:1500, opacity:0, scale:0, duration:1.5} );
 },
+
 "(max-width: 480px)": function() {
     
   let tl22 = gsap.timeline({
     scrollTrigger: {
       trigger: ".zagolovok",
       start: "-50px",
-   end:"1500px",
+   end:"500px",
    
    pin:  true,
   
@@ -108,9 +98,8 @@ tl2.from(".zagolovok", { x:1500, opacity:0, scale:0, duration:1.5} );
   });
 
 
-  tl22.from(".zagolovok", { x:500, opacity:0, scale:0, duration:1} );
+  tl22.from(".zagolovok", { opacity:1, scale:1,} );
     },
-
 
   });
 
@@ -120,7 +109,7 @@ let tl3 = gsap.timeline({
   scrollTrigger: {
     trigger: ".video01",
     start: "-200px",
- end:"4500px",
+ end:"4550px",
 
  pin:  true,
     pinSpacing:false,
@@ -136,9 +125,9 @@ tl3.from(".video01",{ y:100});
         scrollTrigger: {
           trigger: ".video01",
           start: "-150px",
-       end:"1000px",
+       end:"1400px",
        pin:  true,
-       pinSpacing:false,
+       
         
       
         }
@@ -156,7 +145,7 @@ let tl4 = gsap.timeline({
   scrollTrigger: {
     trigger: ".video02",
     start: "-200px",
- end:"3800px",
+ end:"3400px",
   
  pin:  true,
     pinSpacing:false,
@@ -173,10 +162,10 @@ tl4.from(".video02", { y:100});
     let tl2 = gsap.timeline({
       scrollTrigger: {
         trigger: ".video02",
-        start: "-100px",
-     end:"2000px",
+        start: "-50px",
+     end:"1500px",
      pin:  true,
-       
+   
       
     
       }
@@ -198,7 +187,7 @@ let tl8 = gsap.timeline({
   scrollTrigger: {
     trigger: ".video03",
     start: "-200px",
- end:"3700px",
+ end:"2450px",
   
  pin:  true,
     pinSpacing:false,
@@ -214,8 +203,8 @@ tl8.from(".video03", { y:100});
     let tl2 = gsap.timeline({
       scrollTrigger: {
         trigger: ".video03",
-        start: "-100px",
-     end:"2000px",
+        start: "-50px",
+        end:"1250px",
      pin:  true,
        
       
@@ -231,12 +220,13 @@ tl8.from(".video03", { y:100});
 
 });
 
-
+ScrollTrigger.matchMedia({
+  "(min-width: 800px)": function() {
 let tl6 = gsap.timeline({
   scrollTrigger: {
     trigger: ".logotip",
     start: "-200px",
- end:"3900px",
+ end:"3390px",
   
  pin:  true,
     pinSpacing:false,
@@ -246,7 +236,25 @@ let tl6 = gsap.timeline({
 });
 
 tl6.from(".logotip", { y:100});
+},
+"(max-width: 480px)": function() {
+    
+  let tl208 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".logotip",
+      start: "-600px",
+   end:"-500px",
+      
+    
+  
+    }
+  });
 
+
+  tl208.to(".logotip", { y:-1000, duration:2.5  } );
+    },
+
+});
 ScrollTrigger.matchMedia({
 
   "(min-width: 800px)": function() {
@@ -254,7 +262,7 @@ let tl5 = gsap.timeline({
   scrollTrigger: {
     trigger: ".description",
     start: "-380px",
- end:"2700px",
+ end:"2150px",
 
  pin:  true,
     pinSpacing:false,
@@ -264,7 +272,24 @@ let tl5 = gsap.timeline({
 });
 tl5.from(".description", {x:1000 });
 
-  }
+  },
+  "(max-width: 480px)": function() {
+    
+    let tl208 = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".description",
+        start: "-600px",
+     end:"100px",
+     pin:  true,
+       
+      
+    
+      }
+    });
+  
+  
+    tl208.from(".description", { x:500, opacity:0, scale:0, } );
+      },
 });
 
 ScrollTrigger.matchMedia({
@@ -274,7 +299,7 @@ let tl55 = gsap.timeline({
   scrollTrigger: {
     trigger: ".description2",
     start: "-480px",
- end:"2800px",
+ end:"2050px",
 
  pin:  true,
     pinSpacing:false,
@@ -283,7 +308,24 @@ let tl55 = gsap.timeline({
   }
 });
 tl55.from(".description2", {x:1000 });
-}
+},
+"(max-width: 480px)": function() {
+    
+  let tl2081 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".description2",
+      start: "-600px",
+   end:"-150px",
+      pin:  true,
+     
+    
+  
+    }
+  });
+
+
+  tl2081.from(".description2", { x:500, opacity:0, scale:0, } );
+    },
 });
 
 
@@ -295,7 +337,7 @@ let tl555 = gsap.timeline({
   scrollTrigger: {
     trigger: ".description3",
     start: "-580px",
- end:"2500px",
+    end:"1200px",
 
  pin:  true,
     pinSpacing:false,
@@ -306,5 +348,24 @@ let tl555 = gsap.timeline({
 tl555.from(".description3", {x:1000 });
 
   },
+
+  "(max-width: 480px)": function() {
+    
+    let tl228 = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".description3",
+        start: "-600px",
+     end:"150px",
+        pin:  true,
+       
+      
+    
+      }
+    });
+  
+  
+    tl228.from(".description3", { x:500, opacity:0, scale:0, } );
+      },
+
 });
 }
