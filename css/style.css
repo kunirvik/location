@@ -89,7 +89,7 @@ box-shadow:5px 5px #ffffff;
   filter: grayscale(100%);
   background-size: cover;  
   background-attachment: fixed;
-  height: 950vh;
+  height: 840vh;
 
 }
 .wrapper{
@@ -258,7 +258,7 @@ margin-left:58vw;
 
 }
 #c{
-  position: fixed;
+
 }
   .zagolovok{
     width: 85%;
@@ -281,7 +281,7 @@ margin-top: 350vh;
 
 }
 .video03{
-  margin-top: 670vh;
+  margin-top: 690vh;
   width: 85%;
   margin-left: 7.5%;
 
@@ -294,7 +294,7 @@ width: 85%;
 background-color: #cdc6c36e;
 }
 .description2{
-  margin-top: 450vh;
+  margin-top: 400vh;
   margin-left: 7.5%;
   font-size: 16px;
   width: 85%;
@@ -302,7 +302,7 @@ background-color: #cdc6c36e;
 }
 .description3{
   background-color: #b448fc6e;
-  margin-top: 800vh;
+  margin-top: 700vh;
   margin-left: 7.5%;
   font-size: 16px;
   width: 85%;
@@ -320,6 +320,6 @@ background-color: #cdc6c36e;
  margin-left: -7vw;
 }
 .oblojka{
-  height: 955vh;
+  height: 1100vh;
 }
 }
