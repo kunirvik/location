@@ -125,7 +125,7 @@ tl3.from(".video01",{ y:100});
         scrollTrigger: {
           trigger: ".video01",
           start: "-50px",
-       end:"1800px",
+       end:"1900px",
        pin:  true,
        
         

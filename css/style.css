@@ -254,7 +254,7 @@ margin-left:58vw;
 @media(max-width:480px) and (min-height: 500px) {
  body{
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   overflow-x: hidden;
 
 }
@@ -277,7 +277,7 @@ margin-left:58vw;
 }
 
 .video02{
-margin-top: 370vh;
+margin-top: 400vh;
   margin-left: 7.5%;
   width:85%;
 
@@ -318,7 +318,7 @@ background-color: #cdc6c36e;
 
 }
 .logotip{
-  margin-top: 500vh;
+  margin-top: 550vh;
  margin-left: -7vw;
 }
 .oblojka{
