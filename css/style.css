@@ -53,7 +53,7 @@
 width: 100%;
    margin-left: auto;
    margin-right: auto;
-  
+   
 
   }
 
@@ -283,7 +283,7 @@ margin-top: 400vh;
 
 }
 .video03{
-  margin-top: 690vh;
+  margin-top: 750vh;
   width: 85%;
   margin-left: 7.5%;
 
@@ -321,7 +321,5 @@ background-color: #cdc6c36e;
   margin-top: 550vh;
  margin-left: -7vw;
 }
-.oblojka{
-  height: 1100vh;
-}
+
 }
