@@ -103,7 +103,7 @@ box-shadow:5px 5px #ffffff;
   position: absolute;
    font-family:'FuturaPTLight';
   font-size: 33px;
- margin-left: 10vw;
+ margin-left: 12vw;
  margin-top: 250vh;
   color: rgb(0, 0, 0);
   z-index: 999;
@@ -239,7 +239,11 @@ margin-left:58vw;
   outline: 2px solid #000000;
 
 }
-
+.entrance{
+  width: 250px;
+  height: 100px;
+  z-index: 999;
+}
 .description1{
   
 

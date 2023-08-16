@@ -271,7 +271,7 @@ let tl5 = gsap.timeline({
  
   }
 });
-tl5.from(".description", {x:1000 });
+tl5.from(".description", {y:700, duration:1.5, scale: 0});
 
   },
   "(max-width: 480px) and (min-height: 500px)": function() {
@@ -309,7 +309,7 @@ let tl55 = gsap.timeline({
  
   }
 });
-tl55.from(".description2", {x:1000 });
+tl55.from(".description2", {y:700, duration:1.5 });
 },
 "(max-width: 480px) and (min-height: 500px)": function() {
     
@@ -336,6 +336,7 @@ ScrollTrigger.matchMedia({
   "(min-width: 800px)": function() {
 
 let tl555 = gsap.timeline({
+ x:500,
   scrollTrigger: {
     trigger: ".description3",
     start: "-580px",
@@ -347,7 +348,7 @@ let tl555 = gsap.timeline({
  
   }
 });
-tl555.from(".description3", {x:1000 });
+tl555.from(".description3", {y:700, duration:1.5 });
 
   },
 
