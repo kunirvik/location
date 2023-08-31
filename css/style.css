@@ -53,10 +53,11 @@
 width: 100%;
    margin-left: auto;
    margin-right: auto;
-   
+   height: 100%;
 
   }
 
+  /*3d*/ 
 
   #c {
     background: rgba(0, 0, 0, 0);
@@ -92,6 +93,8 @@ box-shadow:5px 5px #ffffff;
   height: 840vh;
 
 }
+
+
 .wrapper{
 
 
@@ -164,7 +167,7 @@ margin-left:58vw;
 }
 .bmx{
   position: absolute;
-  z-index: 999;
+  z-index: 998;
   margin-top: 150vh;
   margin-left: 15vw;
   width: 200px;
@@ -172,7 +175,7 @@ margin-left:58vw;
 .scoot{
   
     position: absolute;
-    z-index: 999;
+    z-index: 998;
     margin-top: 230vh;
     margin-left: 60vw;
     width: 200px;
@@ -183,20 +186,27 @@ margin-left:58vw;
  height: 530px;
   margin-left:87vw;
   margin-top: 220vh;
-  z-index: 999;
+  z-index: 998;
   
+}
+/*descriptions*/
+.wrapper-description{
+  display: flex;
+
+
 }
 .description{
   background-color: #98bcd1;
   position: absolute;
   font-family:'FuturaPTLight';
   font-size: 20px;
-  z-index: 999;
+  z-index: 998;
   color: #000000;
-  width: 500px;
+  width: 400px;
   
-  margin-top: 350vh;
-  margin-left: 12vw;
+  margin-top: 300vh;
+
+  margin-left: 15vw;
   line-height: 0.7;
   letter-spacing: 1px;
   text-align:center;
@@ -209,12 +219,12 @@ margin-left:58vw;
   position: absolute;
   font-family:'FuturaPTLight';
   font-size: 20px;
-  z-index: 999;
+  z-index: 998;
   color: #000000;
-  width: 500px;
+  width: 400px;
   
   margin-top: 400vh;
-  margin-left: 12vw;
+  margin-left: 15vw;
   line-height: 0.7;
   letter-spacing: 1px;
   text-align:center;
@@ -227,12 +237,12 @@ margin-left:58vw;
   position: absolute;
   font-family:'FuturaPTLight';
   font-size: 20px;
-  z-index: 999;
+  z-index: 998;
   color: #000000;
-  width: 500px;
+  width: 400px;
   
   margin-top: 450vh;
-  margin-left: 12vw;
+  margin-left: 15vw;
   line-height: 0.7;
   letter-spacing: 1px;
   text-align:center;
@@ -251,79 +261,109 @@ margin-left:58vw;
 .pusto{
  
 }
-.footer{
-  height: 100vh;
-}
-
-@media(max-width:480px) and (min-height: 500px) {
- body{
-  width: 100vw;
-  height: 110vh;
-  overflow-x: hidden;
-
-}
-#c{
 
 
-}
-  .zagolovok{
-    width: 85%;
-    margin-top: 150vh;
-    font-size: 20px;
-    margin-left: 7.5%;
-  }
-.video01{
-  margin-top: 30vh;
-  margin-left: 7.5%;
-  width:85%;
+footer{
   
+}
+.wrapper-text{
+  font-family: 'FuturaPTLight';
+  font-size: 20px;
+ color: #ffffff;
+
+ margin: 97.5vh 0 0 0 ; 
+ background: rgb(26, 25, 25);
+
+ height: 25px;
+   z-index: 999;
+ text-align: center;
+ position: fixed;
+width: 100%;
+}
+.wrapper-footer{
+
  
+
+
+
+  
 }
 
-.video02{
-margin-top: 400vh;
-  margin-left: 7.5%;
-  width:85%;
+/*новая страница*/
 
-}
-.video03{
-  margin-top: 750vh;
-  width: 85%;
-  margin-left: 7.5%;
-
-}
-.description{
-  margin-top: 160vh;
-  margin-left: 7.5%;
-font-size: 16px;
-width: 85%;
-background-color: #cdc6c36e;
-}
-.description2{
-  margin-top: 400vh;
-  margin-left: 7.5%;
-  font-size: 16px;
-  width: 85%;
-  background-color: #f855106e;
-}
-.description3{
-  background-color: #b448fc6e;
-  margin-top: 700vh;
-  margin-left: 7.5%;
-  font-size: 16px;
-  width: 85%;
-}
-.bmx{
-  margin-top: 500vh;
-  width: 50px;
-}
-.scoot{
-  width: 50px;
-
-}
-.logotip{
-  margin-top: 550vh;
- margin-left: -7vw;
+.wrapper-body{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/park.JPG);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
+
+.wrapper-logo{
+  background-color: black;
+width: 100%;
+height: 150px;
+
+
+
 }
+.link-logo{
+
+}
+.img-logo{
+  padding: 2em;
+width: 450px;
+position: fixed;
+}
+.button-header{
+  font-family:'FuturaPTLight';
+  --bouncing-offset: 0.25em;
+  --bg: 377, 60%, 48%;
+  --dark: hsl(199, 33%, 15%);
+z-index: 999;
+  background-color: hsl(var(--bg));
+  color: var(--dark);
+
+  border: 0;
+  border-radius: 0.5em;
+  padding: 0.7em;
+  
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: lowercase;
+  line-height: 1;
+  position: fixed;
+  margin-left:65em;
+  margin-top:1.6em;
+ 
+ 
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  cursor: pointer;
+  box-shadow: 0 var(--bouncing-offset) 0 0 hsl(var(--bg), 0.5);
+}
+  
+.button-header:active,
+.button-header:focus-visible {
+transform: translateY(var(--bouncing-offset));
+box-shadow: none;
+
+}
+
+.button-header-span{
+
+}
+
+
+.img-body{
+  margin: 0;
+  width: 100%;
+}
+
+
+
+
+

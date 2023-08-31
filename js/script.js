@@ -44,20 +44,13 @@ let tl001 = gsap.timeline({
       
       
         }
-        
-        
-      
-      
-      
       });
    
       
         tl667.to("#c", {  
-       
         duration:1.5,
         scale: 0.35,
-       
-        
+ 
       });
       }
 
@@ -88,11 +81,9 @@ tl2.from(".zagolovok", { x:1500, opacity:0, scale:0, duration:1.5} );
     scrollTrigger: {
       trigger: ".zagolovok",
       start: "-50px",
-
-   
    pin:  true,
   
-   pinSpacing:false,
+   pinSpacing:false, 
   
     }
   });
@@ -262,7 +253,7 @@ ScrollTrigger.matchMedia({
 let tl5 = gsap.timeline({
   scrollTrigger: {
     trigger: ".description",
-    start: "-380px",
+    start: "-300px",
     end: "clamp(2000vh)",
 
  pin:  true,
@@ -300,7 +291,7 @@ ScrollTrigger.matchMedia({
 let tl55 = gsap.timeline({
   scrollTrigger: {
     trigger: ".description2",
-    start: "-480px",
+    start: "-425px",
     end: "clamp(2000vh)",
 
  pin:  true,
@@ -339,7 +330,7 @@ let tl555 = gsap.timeline({
  x:500,
   scrollTrigger: {
     trigger: ".description3",
-    start: "-580px",
+    start: "-550px",
     end: "clamp(500vh)",
 
  pin:  true,
