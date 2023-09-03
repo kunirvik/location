@@ -1,0 +1,286 @@
+@font-face {
+    font-family:'FuturaPTLight';
+    src: url('../fonts/FuturaPT-Light.eot');
+    src: url('../fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPT-Light.woff') format('woff'),
+    url('../fonts/FuturaPT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    }
+    @font-face {
+    font-family:'FuturaPTMedium';
+    src: url('../fonts/FuturaPT-Medium.eot');
+    src: url('../fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPT-Medium.woff') format('woff'),
+    url('../fonts/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500px;
+    font-style: normal;
+    }
+  @font-face {
+    font-family: 'Futura PT Bold';
+    src: url('../fonts/FuturaPT-Bold.eot');
+    src: url('../fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPT-Bold.woff') format('woff'),
+    url('../fonts/FuturaPT-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    }
+  
+    @media ((max-width: 799px)) {
+html{
+  margin: 0;
+  width: 100%;
+height: 100%;}
+      body{
+        overflow-x: hidden;
+        background-image: url(../img/location003.jpg) ;
+        background-size: cover;  
+        background-attachment: fixed;
+     background-position: center;
+  width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+  
+  
+  
+    }
+     .pusto2{
+      height: 100vh;
+    width: 100%;
+      
+      background-color: rgb(27, 27, 27);
+      overflow-x: hidden;
+     }
+      #c {
+        background: rgba(0, 0, 0, 0);
+    height: 100vh;
+    z-index: 999;
+    display: block;
+    position: fixed;
+   
+    
+        
+     }
+    
+     .wrapper-body{
+      width: 100vw;
+      height: 100vh;
+      background-image: url(../img/park.JPG);
+      background-size: cover;
+      background-attachment: fixed;
+      
+    }
+    .wrapper-footer{
+
+ 
+      width: 100vw;
+    
+      overflow-x: hidden;
+
+
+  
+    }
+
+    .wrapper-text{
+      font-family: 'FuturaPTLight';
+      font-size: 20px;
+     color: #ffffff;
+     width: 100vw;
+    
+     overflow-x: hidden;
+     margin-bottom: 800px; 
+     background: rgb(26, 25, 25);
+    
+     height: 25px;
+      display: block;
+     text-align: center;
+     position: fixed;
+
+    }
+    .video03_01{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      outline: 2px solid tomato;
+    }
+
+    .video01_02{
+  position: relative;
+  width: 100%;
+  outline: 2px solid tomato;
+   margin-left: auto;
+    margin-right: auto;
+  
+}
+.video02_01{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+.video03_01{
+ 
+  width: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+
+.video01{
+  position: absolute;
+
+  width: 85%;
+  outline: 2px solid rgb(3, 3, 3);
+ z-index: 998;
+margin-top: 100vh;
+margin-left:10vw;
+}
+
+.video02{
+  position: absolute;
+  margin-left:10vw;
+  width:85% ;
+  outline: 2px solid rgb(0, 0, 0);
+  margin-right: auto;
+  margin-top: 220vh;
+  z-index: 998;
+
+}
+.video03{
+  position: absolute;
+
+  width: 85%;
+  outline: 2px solid rgb(3, 3, 3);
+ z-index: 998;
+margin-top: 320vh;
+margin-left:10vw;
+}
+.bmx{
+  position: absolute;
+  z-index: 998;
+  margin-top: 150vh;
+  margin-left: 0;
+  width: 100px;
+}
+.scoot{
+  
+    position: absolute;
+    z-index: 998;
+    margin-top: 230vh;
+    margin-left:0;
+    width: 100px;
+  }
+
+.logotip{
+  position: absolute;
+ height: 530px;
+  margin-left:0;
+  margin-top: 220vh;
+  z-index: 998;
+  
+}
+/*descriptions*/
+.wrapper-description{
+  display: flex;
+
+
+}
+.description{
+  background-color: #98bcd1;
+  position: absolute;
+  font-family:'FuturaPTLight';
+  font-size: 25px;
+  z-index: 998;
+  color: #000000;
+  width: 100%;
+  
+  margin-top: 300vh;
+
+  margin-left: 0;
+  line-height: 0.7;
+  letter-spacing: 1px;
+  text-align:center;
+  outline: 2px solid #000000;
+
+
+}
+.description2{
+  background-color: #dfa8c6;
+  position: absolute;
+  font-family:'FuturaPTLight';
+  font-size: 25px;
+  z-index: 998;
+  color: #000000;
+  width:100%;
+  
+  margin-top: 400vh;
+  margin-left: 0;
+  line-height: 0.7;
+  letter-spacing: 1px;
+  text-align:center;
+  outline: 2px solid #000000;
+
+}
+
+.description3{
+  background-color: #e4e679;
+  position: absolute;
+  font-family:'FuturaPTLight';
+  font-size: 25px;
+  z-index: 998;
+  color: #000000;
+  width: 100%;
+  
+  margin-top: 450vh;
+  margin-left: 0vw;
+  line-height: 0.7;
+  letter-spacing: 1px;
+  text-align:center;
+  outline: 2px solid #000000;
+
+}
+.wrapper-buttons{
+  display: flex;
+  margin-top: 510vh;
+  
+  }
+  
+  .button1{
+    font-family:'FuturaPTLight' ;
+    font-size: 30px;
+    background-color: #00000086;
+    height: 75px;
+    width: 25%;
+    outline: 2px solid rgb(255, 255, 255);
+    color: #98bcd1;
+    margin-bottom: 3vh;
+  }
+  .contact{
+    font-family:'FuturaPTLight' ;
+    font-size: 30px;
+    background-color: #00000086;
+    height: 75px;
+    width: 25%;
+    outline: 2px solid rgb(255, 255, 255);
+    color: #e4e679;
+  }
+  .button2{
+    font-family:'FuturaPTLight' ;
+    font-size: 30px;
+    background-color: #00000086;
+    height: 75px;
+    width: 25%;
+    outline: 2px solid rgb(255, 255, 255);
+    color: aqua;
+  }
+  .button3{
+    font-family:'FuturaPTLight' ;
+    font-size: 30px;
+    background-color: #00000086;
+    height: 75px;
+    width: 25%;
+    outline: 2px solid rgb(255, 255, 255);
+    color: #ff00bf;
+  }
+  }

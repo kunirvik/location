@@ -32,24 +32,26 @@ let tl001 = gsap.timeline({
 });
 
     },
-    "(max-width: 480px)  and (min-height: 500px)": function() {
+    "(max-width: 799px)": function() {
 
       let tl667 = gsap.timeline({
-    
-        scrollTrigger:{
-        trigger: "#c",
-        start: "top top ",
-        scrub:true,
-      pin:true,
       
+        scrollTrigger:{
+        trigger:"#c",
+        start: "top",
+        scrub: 1,
+        end: "200vh ",
+        
+        
       
         }
       });
    
-      
+         
         tl667.to("#c", {  
-        duration:1.5,
-        scale: 0.35,
+       y:300,
+       x:0,
+        scale: 0.2,
  
       });
       }
@@ -75,7 +77,7 @@ let tl2 = gsap.timeline({
 tl2.from(".zagolovok", { x:1500, opacity:0, scale:0, duration:1.5} );
 },
 
-"(max-width: 480px) and (min-height: 500px)": function() {
+"(max-width: 799px)": function() {
     
   let tl22 = gsap.timeline({
     scrollTrigger: {
@@ -110,7 +112,7 @@ let tl3 = gsap.timeline({
 });
 tl3.from(".video01",{ y:100});
     },
-    "(max-width: 480px) and (min-height: 500px)": function() {
+    "(max-width: 799px)": function() {
     
       let tl11 = gsap.timeline({
         scrollTrigger: {
@@ -123,7 +125,7 @@ tl3.from(".video01",{ y:100});
       
         }
   });
-  tl11.from(".video01", { y:0, opacity:0, scale:0,  } );
+  tl11.from(".video01", { y:-100, opacity:0, scale:0,  } );
 },
 
 
@@ -148,7 +150,7 @@ let tl4 = gsap.timeline({
 
 tl4.from(".video02", { y:100});
   },
-  "(max-width: 480px) and (min-height: 500px)": function() {
+  "(max-width: 799px)": function() {
     
     let tl2 = gsap.timeline({
       scrollTrigger: {
@@ -163,7 +165,7 @@ tl4.from(".video02", { y:100});
     });
   
   
-    tl2.from(".video02", { y:100, opacity:0, scale:0, } );
+    tl2.from(".video02", { y:100, x:50, opacity:0, scale:0, } );
       },
   
   
@@ -189,22 +191,23 @@ let tl8 = gsap.timeline({
 
 tl8.from(".video03", { y:100});
   },
-  "(max-width: 480px) and (min-height: 500px)": function() {
+  "(max-width: 799px)": function() {
     
     let tl2 = gsap.timeline({
+      
       scrollTrigger: {
         trigger: ".video03",
         start: "-50px",
         end:"1500px",
      pin:  true,
-       
+      
       
     
       }
     });
   
   
-    tl2.from(".video03", { y:100, opacity:0, scale:0, } );
+    tl2.from(".video03", { y:100,opacity:0, scale:0, } );
       },
   
 
@@ -229,7 +232,7 @@ let tl6 = gsap.timeline({
 
 tl6.from(".logotip", { y:100});
 },
-"(max-width: 480px) and (min-height: 500px)": function() {
+"(max-width: 799px)": function() {
     
   let tl208 = gsap.timeline({
     scrollTrigger: {
@@ -265,7 +268,7 @@ let tl5 = gsap.timeline({
 tl5.from(".description", {y:700, duration:1.5, scale: 0});
 
   },
-  "(max-width: 480px) and (min-height: 500px)": function() {
+  "(max-width: 799px)": function() {
     
     let tl208 = gsap.timeline({
       scrollTrigger: {
@@ -302,7 +305,7 @@ let tl55 = gsap.timeline({
 });
 tl55.from(".description2", {y:700, duration:1.5 });
 },
-"(max-width: 480px) and (min-height: 500px)": function() {
+"(max-width: 799px)": function() {
     
   let tl2081 = gsap.timeline({
     scrollTrigger: {
@@ -331,7 +334,7 @@ let tl555 = gsap.timeline({
   scrollTrigger: {
     trigger: ".description3",
     start: "-550px",
-    end: "clamp(500vh)",
+    end: "clamp(505vh)",
 
  pin:  true,
     pinSpacing:false,
@@ -343,7 +346,7 @@ tl555.from(".description3", {y:700, duration:1.5 });
 
   },
 
-  "(max-width: 480px) and (min-height: 480px)": function() {
+  "(max-width: 799px)": function() {
     
     let tl228 = gsap.timeline({
       scrollTrigger: {

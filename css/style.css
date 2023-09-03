@@ -53,7 +53,8 @@
 width: 100%;
    margin-left: auto;
    margin-right: auto;
-   height: 100%;
+
+
 
   }
 
@@ -218,7 +219,7 @@ margin-left:58vw;
   background-color: #dfa8c6;
   position: absolute;
   font-family:'FuturaPTLight';
-  font-size: 20px;
+  font-size: 25px;
   z-index: 998;
   color: #000000;
   width: 400px;
@@ -263,15 +264,57 @@ margin-left:58vw;
 }
 
 
-footer{
-  
+.wrapper-buttons{
+display: flex;
+margin-top: 510vh;
+
 }
+
+.button1{
+  font-family:'FuturaPTLight' ;
+  font-size: 50px;
+  background-color: #00000086;
+  height: 75px;
+  width: 25%;
+  outline: 2px solid rgb(255, 255, 255);
+  color: #98bcd1;
+  margin-bottom: 3vh;
+}
+.contact{
+  font-family:'FuturaPTLight' ;
+  font-size: 50px;
+  background-color: #00000086;
+  height: 75px;
+  width: 25%;
+  outline: 2px solid rgb(255, 255, 255);
+  color: #e4e679;
+}
+.button2{
+  font-family:'FuturaPTLight' ;
+  font-size: 50px;
+  background-color: #00000086;
+  height: 75px;
+  width: 25%;
+  outline: 2px solid rgb(255, 255, 255);
+  color: aqua;
+}
+.button3{
+  font-family:'FuturaPTLight' ;
+  font-size: 50px;
+  background-color: #00000086;
+  height: 75px;
+  width: 25%;
+  outline: 2px solid rgb(255, 255, 255);
+  color: #ff00bf;
+}
+
+
 .wrapper-text{
   font-family: 'FuturaPTLight';
   font-size: 20px;
  color: #ffffff;
 
- margin: 97.5vh 0 0 0 ; 
+ margin: 150vh 0 0 0 ; 
  background: rgb(26, 25, 25);
 
  height: 25px;
@@ -280,14 +323,7 @@ footer{
  position: fixed;
 width: 100%;
 }
-.wrapper-footer{
 
- 
-
-
-
-  
-}
 
 /*новая страница*/
 
@@ -297,6 +333,7 @@ width: 100%;
   background-image: url(../img/park.JPG);
   background-size: cover;
   background-attachment: fixed;
+  
 }
 
 
