@@ -125,7 +125,7 @@ tl3.from(".video01",{ y:100});
       
         }
   });
-  tl11.from(".video01", { y:-100, opacity:0, scale:0,  } );
+  tl11.from(".video01", { y:100,   } );
 },
 
 
@@ -165,7 +165,7 @@ tl4.from(".video02", { y:100});
     });
   
   
-    tl2.from(".video02", { y:100, x:50, opacity:0, scale:0, } );
+    tl2.from(".video02", { y:300, opacity:0, } );
       },
   
   
@@ -207,7 +207,7 @@ tl8.from(".video03", { y:100});
     });
   
   
-    tl2.from(".video03", { y:100,opacity:0, scale:0, } );
+    tl2.from(".video03", { y:300,opacity:0,  } );
       },
   
 
@@ -273,7 +273,7 @@ tl5.from(".description", {y:700, duration:1.5, scale: 0});
     let tl208 = gsap.timeline({
       scrollTrigger: {
         trigger: ".description",
-        start: "-800px",
+        start: "-650vh",
    
      pin:  true,
        
@@ -310,7 +310,7 @@ tl55.from(".description2", {y:700, duration:1.5 });
   let tl2081 = gsap.timeline({
     scrollTrigger: {
       trigger: ".description2",
-      start: "-1000px",
+      start: "-650vh",
 
       pin:  true,
      
@@ -351,7 +351,7 @@ tl555.from(".description3", {y:700, duration:1.5 });
     let tl228 = gsap.timeline({
       scrollTrigger: {
         trigger: ".description3",
-        start: "-800px",
+        start: "-500vh",
      
         pin:  true,
        
