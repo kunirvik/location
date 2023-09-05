@@ -49,9 +49,9 @@ let tl001 = gsap.timeline({
    
          
         tl667.to("#c", {  
-       y:300,
+       y:-325,
        x:0,
-        scale: 0.2,
+        scale: 0.1,
  
       });
       }
@@ -117,7 +117,7 @@ tl3.from(".video01",{ y:100});
       let tl11 = gsap.timeline({
         scrollTrigger: {
           trigger: ".video01",
-          start: "-50px",
+          start: "-80px",
        end:"1900px",
        pin:  true,
        
@@ -155,7 +155,7 @@ tl4.from(".video02", { y:100});
     let tl2 = gsap.timeline({
       scrollTrigger: {
         trigger: ".video02",
-        start: "-50px",
+        start: "-80px",
      end:"1550px",
      pin:  true,
    
@@ -197,7 +197,7 @@ tl8.from(".video03", { y:100});
       
       scrollTrigger: {
         trigger: ".video03",
-        start: "-50px",
+        start: "-80px",
         end:"1500px",
      pin:  true,
       
@@ -351,7 +351,7 @@ tl555.from(".description3", {y:700, duration:1.5 });
     let tl228 = gsap.timeline({
       scrollTrigger: {
         trigger: ".description3",
-        start: "-500vh",
+        start: "-650vh",
      
         pin:  true,
        

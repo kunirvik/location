@@ -42,12 +42,13 @@
   
     }
      .pusto2{
-      height: 120vh;
-    width: 100%;
-      
+      overflow: hidden;
+      height: 150vh;
+    width: 100vw;
+      margin-right:0 ;
       background-color: rgb(27, 27, 27);
-      overflow-x: hidden;
      }
+     
       #c {
         background: rgba(0, 0, 0, 0);
     height: 100vh;
@@ -60,7 +61,8 @@
      }
     
      .wrapper-body{
-      width: 100vw;
+      margin: 0;
+      width: 100%;
       height: 100vh;
       background-image: url(../img/park.JPG);
       background-size: cover;
@@ -68,11 +70,6 @@
       
     }
     .wrapper-footer{
-
- 
-      width: 100vw;
-    
-      overflow-x: hidden;
 
 
   
@@ -82,16 +79,20 @@
       font-family: 'FuturaPTLight';
       font-size: 20px;
      color: #ffffff;
-     width: 100vw;
-    
-     overflow-x: hidden;
-     margin-bottom: 800px; 
+   
+     z-index: 999;
+   
      background: rgb(26, 25, 25);
-    
-     height: 25px;
-      display: block;
+     
+      width: 100vw;
+     z-index: 999;
+      overflow-x: hidden;
+    display: block;
+   position: fixed;
+     
+  
      text-align: center;
-     position: fixed;
+  
 
     }
     .video03_01{
@@ -127,17 +128,17 @@
 .video01{
   position: absolute;
 
-  width: 85%;
+  width: 85vw;
   outline: 2px solid rgb(3, 3, 3);
  z-index: 998;
 margin-top: 100vh;
-margin-left:10vw;
+margin-left:7vw;
 }
 
 .video02{
   position: absolute;
-  margin-left:10vw;
-  width:85% ;
+  margin-left:7vw;
+  width:85vw;
   outline: 2px solid rgb(0, 0, 0);
   margin-right: auto;
   margin-top: 220vh;
@@ -147,11 +148,11 @@ margin-left:10vw;
 .video03{
   position: absolute;
 
-  width: 85%;
+  width: 85vw;
   outline: 2px solid rgb(3, 3, 3);
  z-index: 998;
 margin-top: 320vh;
-margin-left:10vw;
+margin-left:7vw;
 }
 .bmx{
   position: absolute;
@@ -236,13 +237,13 @@ margin-left:10vw;
 }
 .wrapper-buttons{
   display: flex;
-  margin-top: 510vh;
+  margin-top: 640vh;
   
   }
   
   .button1{
     font-family:'FuturaPTLight' ;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #00000086;
     height: 75px;
     width: 25%;
@@ -252,7 +253,7 @@ margin-left:10vw;
   }
   .contact{
     font-family:'FuturaPTLight' ;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #00000086;
     height: 75px;
     width: 25%;
@@ -261,7 +262,7 @@ margin-left:10vw;
   }
   .button2{
     font-family:'FuturaPTLight' ;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #00000086;
     height: 75px;
     width: 25%;
@@ -270,11 +271,12 @@ margin-left:10vw;
   }
   .button3{
     font-family:'FuturaPTLight' ;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #00000086;
     height: 75px;
     width: 25%;
     outline: 2px solid rgb(255, 255, 255);
     color: #ff00bf;
   }
-  }
+}
+    
