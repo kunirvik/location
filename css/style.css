@@ -100,6 +100,9 @@ box-shadow:5px 5px #ffffff;
 
 
 }
+.wrapper-main{
+flex: 1 1 auto;
+}
 
 
 
@@ -266,7 +269,8 @@ margin-left:58vw;
 
 .wrapper-buttons{
 display: flex;
-margin-top: 510vh;
+position: fixed;
+
 
 }
 
@@ -307,21 +311,22 @@ margin-top: 510vh;
   outline: 2px solid rgb(255, 255, 255);
   color: #ff00bf;
 }
-
-
-.wrapper-text{
+.wrapper-footer{ 
   font-family: 'FuturaPTLight';
-  font-size: 20px;
+   font-size: 20px;
  color: #ffffff;
 
- margin: 150vh 0 0 0 ; 
+margin-top: 97vh;
  background: rgb(26, 25, 25);
-
- height: 25px;
+display: block;
+ height: 3vh;
    z-index: 999;
  text-align: center;
  position: fixed;
-width: 100%;
+width: 100vw;
+}
+.wrapper-text{
+
 }
 
 
@@ -399,6 +404,7 @@ box-shadow: none;
   margin: 0;
   width: 100%;
 }
+
 
 
 

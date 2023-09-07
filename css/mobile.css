@@ -26,9 +26,10 @@
     font-style: normal;
     }
   
-    @media ((max-width: 799px)) {
+    @media ((max-width: 799px) and (max-height: 899px)) {
 
       body{
+        height: 100%;
         overflow-x: hidden;
         background-image: url(../img/location003.jpg) ;
         background-size: cover;  
@@ -47,6 +48,9 @@
     width: 100vw;
       margin-right:0 ;
       background-color: rgb(27, 27, 27);
+      display: flex;
+      flex-direction: column;
+      
      }
      
       #c {
@@ -63,36 +67,39 @@
      .wrapper-body{
       margin: 0;
       width: 100%;
-      height: 100vh;
+      height: 150vh;
       background-image: url(../img/park.JPG);
       background-size: cover;
       background-attachment: fixed;
       
+      
+    }
+    .wrapper-main{
+
+    
     }
     .wrapper-footer{
-
-
-  
-    }
-
-    .wrapper-text{
-      font-family: 'FuturaPTLight';
-      font-size: 20px;
-     color: #ffffff;
-   
-     z-index: 999;
-   
-     background: rgb(26, 25, 25);
-     
-      width: 100vw;
-     z-index: 999;
-      overflow-x: hidden;
     display: block;
    position: fixed;
+      z-index: 999;
+  margin-top: 97vh;
+      overflow-x: hidden;
+      height: 3vh;
+      width: 100vw;
+        font-family: 'FuturaPTLight';
+      font-size: 20px;
+     color: #ffffff;
+     background: rgb(26, 25, 25);
+ 
+
      
   
      text-align: center;
   
+    }
+
+    .wrapper-text{
+
 
     }
     .video03_01{
@@ -128,51 +135,52 @@
 .video01{
   position: absolute;
 
-  width: 85vw;
+  width: 80vw;
   outline: 2px solid rgb(3, 3, 3);
  z-index: 998;
 margin-top: 100vh;
-margin-left:7vw;
+margin-left: 10%;
+
 }
 
 .video02{
   position: absolute;
-  margin-left:7vw;
-  width:85vw;
+  margin-left:10%;
+  width:80vw;
   outline: 2px solid rgb(0, 0, 0);
   margin-right: auto;
-  margin-top: 220vh;
+  margin-top: 300vh;
   z-index: 998;
 
 }
 .video03{
   position: absolute;
 
-  width: 85vw;
+  width: 80vw;
   outline: 2px solid rgb(3, 3, 3);
  z-index: 998;
-margin-top: 320vh;
-margin-left:7vw;
+margin-top: 500vh;
+margin-left:10%;
 }
 .bmx{
   position: absolute;
-  z-index: 998;
-  margin-top: 150vh;
-  margin-left: 0;
-  width: 100px;
+  z-index: 999;
+  margin-top: 450vh;
+  margin-left: 30vh;
+  width: 75px;
 }
 .scoot{
   
     position: absolute;
     z-index: 998;
     margin-top: 230vh;
-    margin-left:0;
-    width: 100px;
+    margin-left:5vh;
+    width: 75px;
   }
 
 .logotip{
   position: absolute;
- height: 530px;
+ height: 420px;
   margin-left:0;
   margin-top: 220vh;
   z-index: 998;
@@ -185,54 +193,54 @@ margin-left:7vw;
 
 }
 .description{
-  background-color: #98bcd1;
+  background-color: #98bcd18e;
   position: absolute;
   font-family:'FuturaPTLight';
-  font-size: 25px;
+  font-size: 23px;
   z-index: 998;
   color: #000000;
-  width: 100%;
+  width: 80vw;
   margin-top: 200vh;
-  margin-left: 0;
+  margin-left: 10%;
   line-height: 0.7;
   letter-spacing: 1px;
   text-align:center;
-  outline: 2px solid #000000;
+
 
 
 }
 .description2{
-  background-color: #dfa8c6;
+  background-color: #dfa8c68c;
   position: absolute;
   font-family:'FuturaPTLight';
-  font-size: 25px;
+  font-size: 23px;
   z-index: 998;
   color: #000000;
-  width:100%;
-  margin-top: 300vh;
-  margin-left: 0;
+  width:80vw;
+  margin-top: 330vh;
+  margin-left: 10%;
   line-height: 0.7;
   letter-spacing: 1px;
   text-align:center;
-  outline: 2px solid #000000;
+  
 
 }
 
 .description3{
-  background-color: #e4e679;
+  background-color: #e4e6797e;
   position: absolute;
   font-family:'FuturaPTLight';
-  font-size: 25px;
+  font-size: 23px;
   z-index: 998;
   color: #000000;
-  width: 100%;
+  width: 80vw;
   
-  margin-top: 400vh;
-  margin-left: 0vw;
+  margin-top: 650vh;
+  margin-left: 10%;
   line-height: 0.7;
   letter-spacing: 1px;
   text-align:center;
-  outline: 2px solid #000000;
+  
 
 }
 .wrapper-buttons{

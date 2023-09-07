@@ -32,7 +32,7 @@ let tl001 = gsap.timeline({
 });
 
     },
-    "(max-width: 799px)": function() {
+    "(max-width: 799px) and (max-height: 899px)": function() {
 
       let tl667 = gsap.timeline({
       
@@ -49,7 +49,7 @@ let tl001 = gsap.timeline({
    
          
         tl667.to("#c", {  
-       y:-325,
+          yPercent:-40,
        x:0,
         scale: 0.1,
  
@@ -112,13 +112,13 @@ let tl3 = gsap.timeline({
 });
 tl3.from(".video01",{ y:100});
     },
-    "(max-width: 799px)": function() {
+    "(max-width: 799px) and (max-height: 899px)": function() {
     
       let tl11 = gsap.timeline({
         scrollTrigger: {
           trigger: ".video01",
-          start: "-80px",
-       end:"1900px",
+          start: "-130px",
+       end:"1000px",
        pin:  true,
        
         
@@ -150,13 +150,13 @@ let tl4 = gsap.timeline({
 
 tl4.from(".video02", { y:100});
   },
-  "(max-width: 799px)": function() {
+  "(max-width: 799px) and (max-height: 899px)": function() {
     
     let tl2 = gsap.timeline({
       scrollTrigger: {
         trigger: ".video02",
-        start: "-80px",
-     end:"1550px",
+        start: "-130px",
+     end:"1000px",
      pin:  true,
    
       
@@ -191,13 +191,13 @@ let tl8 = gsap.timeline({
 
 tl8.from(".video03", { y:100});
   },
-  "(max-width: 799px)": function() {
+  "(max-width: 799px) and (max-height: 899px)": function() {
     
     let tl2 = gsap.timeline({
       
       scrollTrigger: {
         trigger: ".video03",
-        start: "-80px",
+        start: "-130px",
         end:"1500px",
      pin:  true,
       
@@ -207,7 +207,7 @@ tl8.from(".video03", { y:100});
     });
   
   
-    tl2.from(".video03", { y:300,opacity:0,  } );
+    tl2.from(".video03", { y:300, } );
       },
   
 
@@ -268,12 +268,12 @@ let tl5 = gsap.timeline({
 tl5.from(".description", {y:700, duration:1.5, scale: 0});
 
   },
-  "(max-width: 799px)": function() {
+  "(max-width: 799px) and (max-height: 899px)": function() {
     
     let tl208 = gsap.timeline({
       scrollTrigger: {
         trigger: ".description",
-        start: "-650vh",
+        start: "-600vh",
    
      pin:  true,
        
@@ -283,8 +283,7 @@ tl5.from(".description", {y:700, duration:1.5, scale: 0});
     });
   
   
-    tl208.from(".description", {
-      x:500, opacity:0, scale:0, } );
+    tl208.from(".description", {y:500 } );
       },
 });
 
@@ -305,12 +304,12 @@ let tl55 = gsap.timeline({
 });
 tl55.from(".description2", {y:700, duration:1.5 });
 },
-"(max-width: 799px)": function() {
+"(max-width: 799px) and (max-height: 899px)": function() {
     
   let tl2081 = gsap.timeline({
     scrollTrigger: {
       trigger: ".description2",
-      start: "-650vh",
+      start: "-600vh",
 
       pin:  true,
      
@@ -320,7 +319,7 @@ tl55.from(".description2", {y:700, duration:1.5 });
   });
 
 
-  tl2081.from(".description2", { x:500, opacity:0, scale:0, } );
+  tl2081.from(".description2", {y:500 } );
     },
 });
 
@@ -346,12 +345,12 @@ tl555.from(".description3", {y:700, duration:1.5 });
 
   },
 
-  "(max-width: 799px)": function() {
+  "(max-width: 799px) and (max-height: 899px)": function() {
     
     let tl228 = gsap.timeline({
       scrollTrigger: {
         trigger: ".description3",
-        start: "-650vh",
+        start: "-600vh",
      
         pin:  true,
        
@@ -361,7 +360,7 @@ tl555.from(".description3", {y:700, duration:1.5 });
     });
   
   
-    tl228.from(".description3", {x:500, opacity:0, scale:0, } );
+    tl228.from(".description3", {y:500 } );
       },
 
 });
