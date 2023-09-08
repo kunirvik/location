@@ -149,7 +149,7 @@ margin-left: 10%;
   width:80vw;
   outline: 2px solid rgb(0, 0, 0);
   margin-right: auto;
-  margin-top: 300vh;
+  margin-top: 310vh;
   z-index: 998;
 
 }
@@ -217,7 +217,7 @@ margin-left:10%;
   z-index: 998;
   color: #000000;
   width:80vw;
-  margin-top: 330vh;
+  margin-top: 400vh;
   margin-left: 10%;
   line-height: 0.7;
   letter-spacing: 1px;
@@ -244,8 +244,11 @@ margin-left:10%;
 
 }
 .wrapper-buttons{
-  display: flex;
+display: flex;
   margin-top: 640vh;
+  flex-direction: column;
+  z-index: 999;
+  
   
   }
   
@@ -288,3 +291,63 @@ margin-left:10%;
   }
 }
     
+
+
+@media ((max-width: 799px) and (min-height: 799px)) {
+  .wrapper-description{
+    display: flex;
+  
+  
+  }
+  .description{
+    background-color: #98bcd18e;
+    position: absolute;
+    font-family:'FuturaPTLight';
+    font-size: 23px;
+    z-index: 998;
+    color: #000000;
+    width: 80vw;
+    margin-top: 200vh;
+    margin-left: 10%;
+    line-height: 0.7;
+    letter-spacing: 1px;
+    text-align:center;
+  
+  
+  
+  }
+  .description2{
+    background-color: #dfa8c68c;
+    position: absolute;
+    font-family:'FuturaPTLight';
+    font-size: 23px;
+    z-index: 998;
+    color: #000000;
+    width:80vw;
+    margin-top: 400vh;
+    margin-left: 10%;
+    line-height: 0.7;
+    letter-spacing: 1px;
+    text-align:center;
+    
+  
+  }
+  
+  .description3{
+    background-color: #e4e6797e;
+    position: absolute;
+    font-family:'FuturaPTLight';
+    font-size: 23px;
+    z-index: 998;
+    color: #000000;
+    width: 80vw;
+    
+    margin-top: 650vh;
+    margin-left: 10%;
+    line-height: 0.7;
+    letter-spacing: 1px;
+    text-align:center;
+    
+  
+}
+
